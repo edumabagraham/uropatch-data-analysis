@@ -9,7 +9,7 @@ import statsmodels.tsa.stattools as stattools
 import scipy.signal as signal
 from scipy.signal import correlate
 
-# Sliding window entropy analysis
+# Sliding window feature extraction
 class GenerateFeatures:
     def __init__(self, fs = 70, window_duration=1.0, overlap=0.8):
         self.window_duration = window_duration
@@ -33,7 +33,6 @@ class GenerateFeatures:
         Calculate spectral energy using FFT
         """
         fft_vals = np.fft.fft(signal_data)
-        # Energy is sum of squared magnitudes
         spectral_energy = np.sum(np.abs(fft_vals)**2)
         return spectral_energy
 
