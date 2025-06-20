@@ -1,0 +1,10 @@
+statsmodels==0.14.4
+neurokit2==0.2.11
+numpy==2.3.0
+pandas==2.3.0
+PyWavelets==1.8.0
+tqdm==4.67.1
+matplotlib==3.10.3
+scikit-learn==1.7.0
+scipy==1.15.3
+seaborn==0.13.2
