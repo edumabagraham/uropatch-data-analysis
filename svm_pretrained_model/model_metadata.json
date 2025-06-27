@@ -1,0 +1,1 @@
+{"best_params": {"estimator__C": 10, "estimator__gamma": 0.001}, "best_score": 0.5380952380952382, "scikit-learn_version": "1.6.1"}
