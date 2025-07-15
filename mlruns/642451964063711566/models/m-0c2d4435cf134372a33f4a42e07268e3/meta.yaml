@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/642451964063711566/models/m-0c2d4435cf134372a33f4a42e07268e3/artifacts
+creation_timestamp: 1751731337090
+experiment_id: '642451964063711566'
+last_updated_timestamp: 1751731339519
+model_id: m-0c2d4435cf134372a33f4a42e07268e3
+model_type: ''
+name: XGBoost
+source_run_id: 6ce233b0317c46d8bbe05aab45fbd307
+status: 2
+status_message: null

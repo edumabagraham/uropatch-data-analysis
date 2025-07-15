@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/105670025939797749/dd98d417a90f41159d56c86b6f3b223b/artifacts
+end_time: 1751743611569
+entry_point_name: ''
+experiment_id: '105670025939797749'
+lifecycle_stage: active
+run_id: dd98d417a90f41159d56c86b6f3b223b
+run_name: 1s_win_80%_overlap
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751743609239
+status: 3
+tags: []
+user_id: edumaba

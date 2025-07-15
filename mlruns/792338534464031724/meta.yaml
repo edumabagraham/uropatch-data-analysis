@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/792338534464031724
+creation_time: 1752565141285
+experiment_id: '792338534464031724'
+last_update_time: 1752565141285
+lifecycle_stage: active
+name: Posture Detection - Window Size Tuning - Without PCA

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/708784978014771996/b52ade95400a4019854a9136a8803387/artifacts
+deleted_time: 1752339631914
+end_time: 1752339467947
+entry_point_name: ''
+experiment_id: '708784978014771996'
+lifecycle_stage: deleted
+run_id: b52ade95400a4019854a9136a8803387
+run_name: 1s_win_0%_overlap
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752339467895
+status: 4
+tags: []
+user_id: edumaba

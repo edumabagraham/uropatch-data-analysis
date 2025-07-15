@@ -12,7 +12,7 @@ from scipy.signal import correlate
 
 # Sliding window entropy analysis
 class GenerateFeatures:
-    def __init__(self, fs = 70, window_duration=1.0, overlap=0.8):
+    def __init__(self, fs = 70, window_duration=1.0, overlap=0.5):
         self.window_duration = window_duration
         self.overlap = overlap
         self.fs = fs
@@ -180,62 +180,6 @@ class GenerateFeatures:
                 df['label'] = self.all_labels
         return df
                 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

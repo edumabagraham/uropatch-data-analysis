@@ -11,7 +11,7 @@ from scipy.signal import correlate
 
 # Sliding window feature extraction
 class GenerateFeatures:
-    def __init__(self, fs = 70, window_duration=1.0, overlap=0.8):
+    def __init__(self, fs = 70, window_duration=1.0, overlap=0.5):
         self.window_duration = window_duration
         self.overlap = overlap
         self.fs = fs
@@ -104,7 +104,7 @@ class GenerateFeatures:
         """
         Analyze all IMU axes and combine results
         """
-        # Standardize IMU data (z-score normalization)
+
         if not isinstance(df, pd.DataFrame):
             raise ValueError("Input df data must be a pandas DataFrame.")
         df = df.copy()
@@ -147,7 +147,6 @@ class GenerateFeatures:
             return None
             
         # Pivot table with signals as columns for each entropy measure
-        # measures = ['spectral_entropy','signal_mean','signal_std','signal_range','signal_rms','signal_var', 'spectral_energy', 'time_energy']
         measures = ['permutation_entropy', 'spectral_entropy', 'mean', 'std', 
                     'range', 'rms', 'var', 'min', 'max', 'time_energy', 'spectral_energy'
                     ]  

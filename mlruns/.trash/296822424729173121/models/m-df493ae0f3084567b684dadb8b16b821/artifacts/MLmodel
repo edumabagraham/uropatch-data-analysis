@@ -1,0 +1,22 @@
+artifact_path: file:///home/edumaba/Public/MPhil_Thesis/Code/uropatch-data-analysis/mlruns/296822424729173121/models/m-df493ae0f3084567b684dadb8b16b821/artifacts
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.3
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: xgb
+    xgb_version: 3.0.2
+mlflow_version: 3.1.1
+model_id: m-df493ae0f3084567b684dadb8b16b821
+model_size_bytes: 394275
+model_uuid: m-df493ae0f3084567b684dadb8b16b821
+prompts: null
+run_id: 7483073485ab4b3d8232154adda479a3
+utc_time_created: '2025-07-04 19:39:02.393393'

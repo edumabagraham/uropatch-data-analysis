@@ -1,0 +1,10 @@
+artifact_location: file:///home/edumaba/Public/MPhil_Thesis/Code/uropatch-data-analysis/mlruns/296822424729173121/models/m-16e6d0e1518546e79a1e9ba67ab442e7/artifacts
+creation_timestamp: 1751658399560
+experiment_id: '296822424729173121'
+last_updated_timestamp: 1751658403594
+model_id: m-16e6d0e1518546e79a1e9ba67ab442e7
+model_type: ''
+name: XGBoost Classification
+source_run_id: df3494099598406a943469483e932a84
+status: 2
+status_message: null
