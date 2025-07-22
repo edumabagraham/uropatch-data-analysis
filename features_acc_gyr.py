@@ -25,7 +25,7 @@ class GenerateFeatures:
         if not (0 <= self.overlap < 1):
             raise ValueError("Overlap must be between 0 and 1 (exclusive)")
             
-        window_samples = int(self.window_duration * self.fs)
+        window_samples = round(self.window_duration * self.fs)
         if window_samples < 3:
             raise ValueError("Window too small - need at least 3 samples for entropy calculation")
         
@@ -53,8 +53,8 @@ class GenerateFeatures:
         if n_samples == 0:
             raise ValueError("Signal is empty. Cannot perform analysis.")
 
-        window_samples = int(self.window_duration * self.fs)
-        step_samples = int(window_samples * (1 - self.overlap))
+        window_samples = round(self.window_duration * self.fs)
+        step_samples = round(window_samples * (1 - self.overlap))
         
         if step_samples == 0:
             step_samples = 1  # Prevent infinite loop
