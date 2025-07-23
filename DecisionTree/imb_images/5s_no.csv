@@ -1,0 +1,7 @@
+,comparison,technique_A,technique_B,p_value,statistic,effect_size,mean_improvement,A_wins,ties,B_wins,significant
+0,none vs oversample_smote,none,oversample_smote,0.0390625,3.0,0.6,0.1191161616161616,7,2,1,False
+1,none vs undersample_tomek_links,none,undersample_tomek_links,0.25,9.0,-0.4,-0.04849067599067599,2,2,6,False
+2,none vs combined_smote_tomek,none,combined_smote_tomek,0.15625,5.0,-0.5,-0.0895898545898546,1,3,6,False
+3,oversample_smote vs undersample_tomek_links,oversample_smote,undersample_tomek_links,0.0078125,1.0,-0.7,-0.16760683760683762,1,1,8,True
+4,oversample_smote vs combined_smote_tomek,oversample_smote,combined_smote_tomek,0.00390625,0.0,-0.9,-0.20870601620601623,0,1,9,True
+5,undersample_tomek_links vs combined_smote_tomek,undersample_tomek_links,combined_smote_tomek,0.6953125,23.0,-0.2,-0.0410991785991786,4,0,6,False
