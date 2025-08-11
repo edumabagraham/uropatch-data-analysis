@@ -1,7 +1,0 @@
-artifact_location: mlflow-artifacts:/106852743080271316
-creation_time: 1752763833680
-experiment_id: '106852743080271316'
-last_update_time: 1752763994119
-lifecycle_stage: active
-name: With PCA and smote - 88
-tags: {}
